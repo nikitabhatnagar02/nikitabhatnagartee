@@ -1,0 +1,570 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font-style: Helvetica, sans-serif;
+}
+b.contenthead {
+  padding-top: -20px;
+  color: #EF8A51;
+}
+.searchbtn {
+  color: grey;
+  font-family: "Helvetica Bold", Helvetica, "Helvetica Light", "Helvetica Oblique";
+}
+a {
+  color: white;
+}
+/*.nav-tabs {
+  padding-left: 30px;
+}
+.navbarhead {
+  font-family: "Helvetica Bold", Helvetica, "Helvetica Light", "Helvetica Oblique";
+  font-weight: bold;
+  color: white;
+}*/
+row .homecontent {
+  padding-left: -80px;
+}
+/*Carousal*/
+.blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #008AD7;
+  border-radius: 100%;
+  height: 2px;
+  width: 23px;
+}
+b.subheading {
+  color: #008AD7
+}
+.calender {
+  background: #008AD7;
+  color: white;
+  width: auto;
+}
+.noticeboard {
+  margin-right: 5px;
+}
+.bseinstitute {
+  margin-left: 50px;
+}
+.contentbox {
+  color: gray;
+}
+.bselogo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rectangle {
+  background-color: #EFECEC;
+}
+.subsub {
+  color: black;
+  background: #EFECEC;
+}
+.noticeboard {
+  background: #DBDADA;
+}
+/* dropdown program*/
+.programs {
+  color: grey;
+}
+.programdropdown:hover {
+  background: #EF8A51;
+  color: white;
+}
+/* dropdown program end*/
+.breadcrumb {
+  background: white;
+  margin-left: 20px;
+}
+.home {
+  color: grey;
+}
+.basiccourse {
+  font-size: 14pt;
+}
+div {
+  margin-left: 30px;
+}
+.portfolio-item {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.card-img-top {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.linkcourse {
+  color: #008AD7;
+}
+#clothingnav1 {
+  background-color: #EFECEC;
+  color: black;
+}
+#coursedetails {
+  color: black;
+}
+#curriculum {
+  color: black;
+}
+#targetaud {
+  color: black;
+}
+#durtime {
+  color: black;
+}
+.fullcontent {
+  background-color: #EFECEC;
+  height: 630px;
+}
+.container-fluid {
+  margin-left: 10px;
+  padding-right: 10px;
+}
+.buynowbtn {
+  width: 450px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #EF8A51;
+  border-color: #EF8A51;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px;
+}
+.buynowbtn:hover {
+  width: 450px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #008AD7;
+  border-color: #008AD7;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px;
+}
+.addcartbtn {
+  width: 450px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #EF8A51;
+  border-color: #EF8A51;
+  text-align: center;
+  padding: 10px;
+}
+.addcartbtn:hover {
+  width: 450px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #008AD7;
+  border-color: #008AD7;
+  text-align: center;
+  padding: 10px;
+}
+.price1 {
+  text-align: left;
+  padding-left: 200px;
+  font-size: 30px;
+  color: #008AD7;
+}
+.cartheads {
+  color: #008AD7;
+}
+.panel-heading {
+  text-align: center;
+}
+form {
+  align-content: center;
+}
+.account {}
+b .account {
+  text-align: center;
+}
+h4 .account {
+  text-align: center;
+  color: #EF8A51;
+}
+.subhead {
+  text-align: center;
+  color: #EF8A51;
+  font-size: 10px;
+}
+body {
+  margin-top: 0px;
+}
+/* wizard*/
+.stepwizard-step p {
+  margin-top: 10px;
+}
+.stepwizard-row {
+  display: table-row;
+}
+.stepwizard {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+.stepwizard-step button[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-order: 0;
+}
+.stepwizard-step {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-fin {
+  border-color: #EF8A51;
+  background-color: #EF8A51;
+  color: white;
+}
+.btn-primary {
+  border-color: #EF8A51;
+  background-color: white;
+  color: grey;
+}
+.btn-block {
+  background: #EF8A51;
+  border: #EF8A51;
+}
+.disabl {
+  border-color: grey;
+  background: white;
+}
+.wizbtnactive {
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  font-weight: bold;
+  border-color: #EF8A51;
+  border-width: medium;
+}
+.subsub {
+  background: #008AD7;
+  color: white;
+}
+/*Wizard end*/
+body {
+  margin-top: -58px;
+}
+.btn-outline-success:hover {
+  background-color: #EF8A51;
+  border-color: #EF8A51;
+  font-family: "Helvetica Bold", Helvetica, "Helvetica Light", "Helvetica Oblique";
+  font-weight: bold;
+  color: white;
+}
+.form-control {
+  font-family: "Helvetica Bold", Helvetica, "Helvetica Light", "Helvetica Oblique";
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding-bottom: -200px;
+}
+.continuebtn {
+  padding-left: 40px;
+}
+.btn-sensex {
+  background: #008AD7;
+  border: #EF8A51;
+  color: white;
+}
+i.fa-shopping-cart {
+  font-size: 25px;
+  color: white;
+}
+/*tabbed nav*/
+/*body{
+			margin-top: 100px;
+			line-height: 1.6;
+		}*/
+/*.container{
+			width: 800px;
+			margin: 0 auto;
+		}*/
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+ul.tabs li.current {
+  background: #ededed;
+  color: #222;
+}
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+  padding-bottom: 200px;
+}
+.tab-content.current {
+  display: inherit;
+}
+.badge-notify {
+  background: red;
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+.my-cart-icon-affix {
+  position: fixed;
+  z-index: 999;
+}
+label {
+  font-size: 20px;
+}
+.radiobtn {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.submitbtn {
+  width: 700px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #EF8A51;
+  border-color: #EF8A51;
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+.submitbtn:hover {
+  width: 700px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #008AD7;
+  border-color: #008AD7;
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+.loginbtn {
+  width: 350px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #EF8A51;
+  border-color: #EF8A51;
+  text-align: center;
+  margin-left: 45px;
+  align-content: center;
+}
+.loginbtn:hover {
+  width: 350px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #008AD7;
+  border-color: #008AD7;
+  text-align: center;
+  margin-left: 45px;
+  align-content: center;
+}
+/*Navigation Bar*/
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+  color: #EF8A51;
+}
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+  color: #EF8A51;
+}
+.dropdown-menu {
+  background-color: #EF8A51;
+}
+.dropdown-item:hover {
+  background-color: #F79A65;
+}
+.responsive {
+  width: 50%;
+  height: auto;
+}
+.infotab {
+  background-color: #EFECEC;
+  outline-style: none;
+}
+.containertable {
+  margin-right: 30px;
+}
+@media (max-width:629px) {
+  .bseedulogo {
+    display: none;
+  }
+}
+.nav-item {
+  color: #fff;
+}
+.nav-item:hover {
+  color: #fff;
+  font-weight: bold;
+}
+.fa-bars {
+  color: white;
+}
+.active {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  transition: all 0.4s;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Set a style for all buttons */
+.buttonpop {
+  background-color: #EF8A51;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  padding: 30px 38px;
+  padding: 10px 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.buttonpop:hover {
+  opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #C71D1D;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+/* Center the image and position the close button */
+/*
+.container {
+  padding: 16px;
+}
+*/
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+/* Change styles for span and cancel 
+on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+form.hidden {
+  display: none;
+}
+.containerpop {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.containerpopup {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
